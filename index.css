@@ -1,0 +1,262 @@
+html{
+
+	background-color:#ffc299
+
+
+;
+
+	/**background-color:#ccffcc;
+/**background-color: #a7c3a7
+;**/
+}
+
+button{
+	cursor: pointer;
+}
+
+.ipic{
+	width:200px;
+	height:200px;
+	border: 2px solid #4d4d4d;
+	margin: 20px;
+}
+
+
+nav {
+overflow: hidden;
+background-color: #e65c00
+;
+
+width:100%;
+}
+nav button{
+	float:left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-family: serif;
+  	font-size: 15px;
+font-weight: bold;
+background-color: #e65c00;
+
+
+
+;
+border: none;
+
+
+}
+
+
+input{
+	float: right;
+
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+  text-align: left;
+  height: 700px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 50px;
+  color: black;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+height: auto;
+padding: 20px;
+}
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+.btn{
+background-color: #e65c00;
+  color: white;
+ padding:10px;
+  font-size: 15px;
+  border: none;	
+ 
+}
+
+.btnhrt{
+	background-color: none;
+}
+.btnpic{
+background-color: #f2f2f2;
+  color: black;
+ padding:10px;
+  font-size: 15px;
+  font-weight: 10px;
+  border: none;	
+  width:100px;
+
+}
+
+
+.bp{
+	display: block;
+float:right;
+padding-right: 50px;
+margin-top: -150px;
+}
+
+
+.dropbtn {
+  background-color: #e65c00;
+  color: white;
+  border: none;
+  cursor: pointer;
+   padding:10px;
+  font-size: 15px;
+  border: none;	
+ 
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff751a;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.modalbtns{
+	float:right;
+	
+	 margin-left:-300px;
+  margin-top:-150px;
+}
+
+#price{
+	
+	padding-right: 100px;
+}
+
+
+
+.rightnav{
+	float: right;
+	
+}
+
+.search{
+	margin-top: 10px;
+	margin-right: 2px;
+}
+
+
+
+.item{
+display: inline-block;
+margin-left: 300px;
+	background-color: #ffb380;
+	border: 2px solid white;
+border-radius: 25px;
+width: 60%;
+}
+
+.comments{
+display: inline-block;
+margin-left: 300px;
+	background-color: #ffb380;
+	border: 2px solid white;
+border-radius: 25px;
+width: 60%;
+}
+
+.ctext{
+	padding-left: 20px;
+	width: 750px;
+}
+
+
+.register{
+	margin-top: 100px;
+	background-color: white;
+	border: 2px solid #e65c00;
+	margin-left: 450px;
+	border-radius: 25px;
+width: 28%;
+height: 45%;
+}

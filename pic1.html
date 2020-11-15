@@ -1,0 +1,165 @@
+<html>
+
+<!--<iframe src="https://console.echoAR.xyz/arjs?key=long-voice-3924" allow="camera *"/>
+-->
+<link rel="stylesheet" type="text/css" href="./index.css">
+
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<head>
+	<img src="atlogo.png" style="width: 300px; height: auto">
+</head>
+
+<body>
+<header>
+<nav>
+	<button>
+Home
+	</button>
+
+	<button>
+Art
+	</button>
+<button>
+Artists
+	</button>
+
+
+<div class="rightnav">
+
+<button>
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+	</button>
+<button>
+<i class='fas fa-user-circle'></i>
+	</button>
+
+<input type="text" class="search" placeholder="Search..">
+
+
+
+</nav>
+	
+</header>
+
+
+<br>
+
+<div class="item">
+<p>
+	<h2 style="color: #cc5200;padding-left: 100px">Nifa</h2>
+ <img style="width:500px; height:auto; padding-left: 100px" src="nifa2.png">
+
+<br>
+<br>
+
+<span style="padding-left: 100px">by <a style="color: #cc5200; cursor: pointer;" ><b>User</b></a></span>
+
+<div class="bp">
+<button class="btnpic" onclick="hrtChange()">
+<img src="hrt1.png" id="hrt" style="width: 20px">
+	</button>
+
+	<br>
+
+
+
+<br><button class="btnpic" id="buy" onclick="document.getElementById('buymodal').style.display='block';">
+Buy
+</button>
+</div>
+
+</p>
+
+<!--modal interests-->
+<div class="modal" id="buymodal">
+<div class="modal-content">
+  <span onclick="document.getElementById('buymodal').style.display='none'"class="close">&times;</span>
+
+
+
+
+<img id="pic1" style="width:200px; height:auto;" src="nifa2.png"></p>
+
+<p style="padding-left: 10px" id="p">
+</p>
+
+<img src="Untitled.png" id="hiddenimg" style="width: 100px;cursor: pointer;display: none">
+
+
+
+
+<div class="modalbtns">
+	<span id="price"></span>
+	<br>
+	<br>
+<div class="dropdown">
+
+  <button onclick="myFunction()" class="dropbtn" id="dbtn">Choose Type</button>
+  <div id="myDropdown" class="dropdown-content">
+
+  	<!--<a href="#" onclick="nifanothing();document.getElementById('hiddenimg').style.display='hidden'"> </a>-->
+
+    <a href="#" onclick="document.getElementById('hiddenimg').style.display='block';changetonposter();">Poster</a>
+    <a href="#" onclick="document.getElementById('hiddenimg').style.display='block';changetonsweatshirt()">Sweatshirt</a>
+      </div>
+<br>
+<br>
+<button class="btn">Add to Cart</button>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<!--image-->
+
+<!--dropdown-->
+<!--<button>
+	Add to Cart
+</button>
+
+<button>
+	Try it
+</button>-->
+</p>
+
+</div>
+
+<br>
+<br>
+
+
+<div class="comments">
+	<div class="ctext">
+<h3>Comments</h3> <span  style="color: #cc5200; cursor: pointer;"><b>Add a comment</b></span>
+<hr>
+Cute art!
+<br>
+<span style="font-size: 14px;padding-top:10px; cursor: pointer;"><b>User1234</b></span>
+<hr>
+I like the poster
+<img src="IMG_1252.jpeg" style="width: 200px; height: auto;">
+<br>
+<span style="font-size: 14px; cursor: pointer;"><b>User3</b></span>
+<br>
+<br>
+</div>
+</div>
+
+<br>
+<br>
+
+<footer>
+	<script type="text/javascript" src="./javascript.js"> </script>
+</footer>
+</body>
+
+
+</html>
